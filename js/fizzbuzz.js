@@ -19,6 +19,12 @@ function FizzBuzz(n) {
     return answer
 }
 
+console.assert(FizzBuzz(1) === '.')
+console.assert(FizzBuzz(2) === '..')
+console.assert(FizzBuzz(3) === '..fizz')
+console.assert(FizzBuzz(5) === '..fizz.buzz')
+console.assert(FizzBuzz(10) === '..fizz.buzzfizz..fizzbuzz')
+
 
 // function FizzBuzz(n) {
 //     for (var i = 1; i = n; i++) {
